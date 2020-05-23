@@ -3,12 +3,10 @@ package review_sessions.week1;
 public class PrimitiveVariables {
 
 	public static void main(String[] args) {
-				
-		//declaration
-		//init 
+
 		
 		byte b1; //declared
-		b1=100;
+		b1=100; //initialized
 		
 		short s1 = 205;
 		int i1 = 100;
