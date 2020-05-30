@@ -17,6 +17,22 @@ public class Concat {
 		System.out.println("From " + city1 + " to " + city2 + " is $" + ticketPrice);
 		
 		
+		//How to seperate + for concat and addition
+		System.out.println("Apple" + 45); //String + int => concat
+		System.out.println(45 + "apple"); //int + String => concat
+		System.out.println(45+45); //int + int => addition
+		System.out.println(45+45+"apple"); //(int + int) + String = > int + String = >
+		System.out.println("apple" + 45 + 45); //String + int + int => (String+int) + int = > String + int
+		System.out.println("apple" + (45+45)); // String + (int+int) = >String + int 
+		System.out.println("apple" + 45 + 45 + "apple"); //String + int + int  + String
+														//(string+int) + int + String 
+														// (String + int) + String 
+														// String + String 
+		System.out.println( ("45"+ "45") + 45 + 45);
+		// (String+String) + int + int = > String + int + int => string + int = > String
+		
+		
+		
 	
 		
 	}
