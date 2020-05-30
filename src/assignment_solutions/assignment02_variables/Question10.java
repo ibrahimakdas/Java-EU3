@@ -10,7 +10,7 @@ public class Question10 {
 		second=33;
 		String amOrPm = "PM";
 		
-		//System.out.println(hour + ":" + minute + ":" + second + amOrPm);
+		System.out.println(hour + ":" + minute + ":" + second + amOrPm);
 		
 		
 	
