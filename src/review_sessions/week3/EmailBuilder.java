@@ -18,7 +18,7 @@ public class EmailBuilder {
 		
 		System.out.println("Welcome to your new Company!"); 
 		
-		System.out.print("Enter first name, last name, company name:"); //step-3
+		System.out.println("Enter first name, last name, company name:"); //step-3
 		
 		String firstName = scanner.next();
 		
