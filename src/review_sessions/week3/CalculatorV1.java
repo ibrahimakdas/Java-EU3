@@ -6,7 +6,7 @@ public class CalculatorV1 {
 		
 		double num1 = 10.20;
 		double num2 = 5.0;
-		char operator = '+';
+		char operator = '@';
 		
 		if(operator == '+') {
 			System.out.println(num1+num2);
