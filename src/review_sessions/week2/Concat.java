@@ -6,6 +6,7 @@ public class Concat {
 		
 		int age = 60; 
 		
+		
 		System.out.println("My Age is : " + age);  // My Age is + 35 
 		
 		String city1 = "Berlin";
