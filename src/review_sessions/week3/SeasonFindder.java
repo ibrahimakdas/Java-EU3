@@ -10,7 +10,7 @@ public class SeasonFindder {
 		System.out.print("Enter month:");
 		int month = scanner.nextInt();
 		
-		switch(month) {
+		switch(month) {  //byte,short,char,int,String
 		case 3: case 4: case 5:
 			System.out.println("It is spring");
 			break;
