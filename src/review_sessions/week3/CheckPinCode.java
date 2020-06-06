@@ -9,7 +9,7 @@ public class CheckPinCode {
 		int secretPinCode = 2345;
 		int inputPinCode = 2;
 		
-		if(inputPinCode == secretPinCode) {
+		if(inputPinCode == secretPinCode) {  //if(2345 == 2)
 			
 			System.out.println("Welcome to your account!");
 		
