@@ -5,12 +5,12 @@ public class Question2 {
 	public static void main(String[] args) {
 		
 		int income=1200000;
-
+	
 		double taxAmount_1 = income * 0.25;
-		double taxAmount_2 = ((income - 150000000) * 0.30) + (150000000 * 0.25);
-		double taxAmount_3 = ((income - 300000000) * 0.35) + taxAmount_2;
-		double taxAmount_4 = ((income - 600000000) * 0.40) + taxAmount_2 + taxAmount_3;
-		double taxAmount_5 = ((income - 1200000000) * 0.50) + taxAmount_2 + taxAmount_3 + taxAmount_4;
+		double taxAmount_2 = ((income - 150_000_000) * 0.30) + taxAmount_1;
+		double taxAmount_3 = ((income - 300_000_000) * 0.35) + taxAmount_2;
+		double taxAmount_4 = ((income - 600_000_000) * 0.40) + taxAmount_3;
+		double taxAmount_5 = ((income - 1_200_000_000) * 0.50) + taxAmount_4;
 
 		if (income <= 150000000) {
 		    System.out.println("Your income: " + income);
