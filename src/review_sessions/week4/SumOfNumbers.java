@@ -16,7 +16,9 @@ public class SumOfNumbers {
 		
 		for(int i=10;i<=30;i++) {
 			
-			sum = sum + i;
+			sum = sum + i;  
+			// 0+10 =11
+			// 11+12 = 23
 			counter++;
 			
 			
