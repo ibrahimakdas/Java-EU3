@@ -6,6 +6,11 @@ public class CheckingAccountTest {
 		
 		//create an account //create an object from CheckingAccount class
 		CheckingAccount clientOne = new CheckingAccount();
+		int x = 5;
+		
+		
+		System.out.println(x);//5
+		System.out.println(clientOne);
 		
 		clientOne.accountNumber = 3412546576868L;
 		clientOne.accountHolder = "Mike";
