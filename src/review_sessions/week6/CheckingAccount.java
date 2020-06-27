@@ -24,6 +24,53 @@ public class CheckingAccount {
 		balance += amount;
 	}
 	
+	public void withdraw(double amount) {
+		
+		System.out.println("Withdrawing $ " + amount + " from account number: " + accountNumber);
+		if(amount<=balance) {
+			balance-=amount;
+		}else {
+			System.out.println("ERROR:Insufficient Fund In Acccount. Keep coding Java");
+		}
+		
+	}
+	
+	public void purchase(String item,double price) {
+		
+		System.out.println("Purchasing " + item + " for $" + price);
+		
+		if(price<=balance) {
+			balance-=price;
+		}else {
+			System.out.println("Insufficient Fund - Overdraft fee is applied");
+			balance -= (price+35);
+		}
+		
+		System.out.println("Transaction completed for " + item + " ,current balance:" + balance);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 
 }
