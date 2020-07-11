@@ -23,7 +23,10 @@ public class String_Equals {
 		
 		String capital = scan.next();
 		
-		if(capital.equalsIgnoreCase("DC")) {
+		capital = capital.toUpperCase();
+		capital = capital.toLowerCase();
+		
+		if(capital.equals("DC")) {
 			System.out.println("Your answer is correct");
 		}else {
 			System.out.println("Your answer is not correct");
