@@ -17,7 +17,7 @@ public class UserInput {
 		System.out.println("Enter second number:");
 		int num2 = sc.nextInt();
 		
-		//sc.nextLine(); //if u want to use nextLine after nextInt - you need to put one extra nextLine before nextline
+		//sc.nextLine(); ///if u want to use nextLine after nextInt - you need to put one extra nextLine before nextline
 		
 		System.out.println("Enter a string:");
 		//String str = sc.nextLine();
