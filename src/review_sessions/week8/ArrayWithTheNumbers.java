@@ -23,6 +23,22 @@ public class ArrayWithTheNumbers {
 		//print last
 		System.out.println(numsArray[numsArray.length-1]);
 		
+		System.out.println("-----");
+		
+		//print the number if it is more than 100
+		for(int i=0;i<numsArray.length;i++) {
+			if(numsArray[i]>100) {
+				System.out.println(numsArray[i]);
+			}
+		}
+		
+		//print array items in reverse in same line
+		for(int i=numsArray.length-1;i>=0;i--) {
+			System.out.print(numsArray[i] + " ");
+		}
+		
+		
+		
 		
 		
 	
