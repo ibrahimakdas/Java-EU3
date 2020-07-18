@@ -132,6 +132,25 @@ public class EmployeesArray {
 		//verification successfull
 		//error
 		
+		for(String emp : employees) {
+			
+			String[] empArr = emp.split(" ");
+			String first = empArr[0];
+			String last = empArr[1];
+			String job  = emp.substring(emp.indexOf("[")+1, emp.indexOf("]"));
+			
+			if(first.equals("Tracy") && last.equals("Bartle")) {
+				if(job.equals("Geological Engineer")) {
+					System.out.println("Verification successfull");
+				}else {
+					System.out.println("Verification not successfull");
+				}
+		
+			}
+			
+		}
+		
+		
 		
 		
 		
