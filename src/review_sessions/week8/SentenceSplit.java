@@ -21,9 +21,12 @@ public class SentenceSplit {
 		String[] googleArr = results.split(" ");
 		System.out.println(Arrays.toString(googleArr));
 		
+		
+		/*
 		for(String item : googleArr) {
 			System.out.println(item);
 		}
+		*/
 		
 
 		
