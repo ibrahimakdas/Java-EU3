@@ -8,6 +8,9 @@ public class TwoDArray {
 		
 		String[][] list = new String[4][3];
 		
+		String[][] list2 = { {"Potatoes","Carrots","Onions"},{"Apples","Kiwis","Figs"},{"Milk","Egg","Cheese"},{"Bread","Bagel","Muffin"} };
+		
+		
 		//row1
 		list[0][0]="Potatoes";
 		list[0][1]="Carrrots";
@@ -42,6 +45,33 @@ public class TwoDArray {
 		System.out.println(Arrays.deepToString(list));
 		
 		//print all vegetables using a loop
+		for(int i=0;i<list[0].length;i++) {
+			System.out.println(list[0][i]);
+		}
+		
+		//print all dairy using for each loop
+		for(String each : list[2]) {
+			System.out.println(each);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 
