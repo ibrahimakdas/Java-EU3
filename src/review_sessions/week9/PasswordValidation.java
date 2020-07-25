@@ -14,11 +14,14 @@ public class PasswordValidation {
 		 5-Password should at least contain a digit
 		 If All requirements above met, the method returns true, otherwise returns false
 		 */
+		
+		System.out.println(validatePassword("Apple@compu5ter"));
 
 	}
 	
 	
 	public static String validatePassword(String str) {
+		
 		
 		
 		//apple xxxx
@@ -62,9 +65,9 @@ public class PasswordValidation {
 			}
 		}
 		
-		//special character
+		//special character - >
 		for(int i=0;i<str.length();i++) {
-			if(!Character.isLetterOrDigit(str.charAt(i)) && !Character.isSpace(str.charAt(i))) {
+			if(!Character.isLetterOrDigit(str.charAt(i)) && !Character.isSpaceChar(str.charAt(i))) {
 				special=true;
 				break;
 			}
