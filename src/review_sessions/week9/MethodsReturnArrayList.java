@@ -1,0 +1,52 @@
+package review_sessions.week9;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class MethodsReturnArrayList {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+	
+	
+	public static List<Integer> getIntList(int size){  //500
+		
+		ArrayList<Integer> numbers = new ArrayList<>();   //{1,2,3,4,5...500}
+		
+		for(int n=1;n<=size;n++) {
+			numbers.add(n);
+		}
+		
+		return numbers;
+			
+	}
+	
+	public static List<Integer> getRandomIntList(int size){ //3  
+		
+		Random r = new Random();
+		List<Integer> numbers = new ArrayList<>();
+		
+		for(int n=1;n<=size;n++) {
+			numbers.add(r.nextInt(101));
+		}
+		
+		return numbers;
+			
+	}
+	
+	
+	
+	
+	
+	public static int[] myArray(double[] arr) {
+		
+		int[] x = {1,2,3};
+		return x;
+	
+	}
+
+}
