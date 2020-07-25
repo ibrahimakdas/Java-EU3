@@ -9,13 +9,18 @@ public class MethodsReturnArrayList {
 	public static void main(String[] args) {
 		
 		
+		System.out.println(getIntList(20));
+		System.out.println(getIntList(52));
+		
+		System.out.println(getRandomIntList(5));
+		
 
 	}
 	
 	
-	public static List<Integer> getIntList(int size){  //500
+	public static List<Integer> getIntList(int size){  
 		
-		ArrayList<Integer> numbers = new ArrayList<>();   //{1,2,3,4,5...500}
+		ArrayList<Integer> numbers = new ArrayList<>();   
 		
 		for(int n=1;n<=size;n++) {
 			numbers.add(n);
