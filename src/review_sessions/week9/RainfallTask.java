@@ -33,10 +33,10 @@ public class RainfallTask {
 			
 		}
 		
-		System.out.println("The sum of the all the rain is" + rainfall.getSum(rain));
-		System.out.println("The average rainfall was:" + rainfall.getAverage(rain));
-		System.out.println("The max rain is:" + rainfall.getMaxValue(rain));
-		System.out.println("The min rain:" + rainfall.getMinValue(rain));
+		System.out.println("The sum of the all the rain is" + rainfall.getSum(rain) + "inches");
+		System.out.println("The average rainfall was:" + rainfall.getAverage(rain)  + "inches");
+		System.out.println("The max rain is:" + rainfall.getMaxValue(rain)  + "inches");
+		System.out.println("The min rain:" + rainfall.getMinValue(rain)  + "inches");
 		
 		
 		
