@@ -17,7 +17,7 @@ public class BankAccount {
 	
 	//this constructor sets the starting balance to the value in the string argument
 	public BankAccount(String str) {
-		balance = Double.parseDouble(str);
+		this.balance = Double.parseDouble(str);
 	}
 	
 	public void deposit(String str) {
