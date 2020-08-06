@@ -9,10 +9,6 @@ public class DiceTest {
 		Dice sixDice = new Dice(SIX_SIDES);
 
 		rollDice(sixDice);
-		
-		
-		
-
 	}
 	
 	public static void rollDice(Dice d) {
@@ -22,5 +18,7 @@ public class DiceTest {
 		//The dice's value : 5
 		System.out.println("The dice's value : " +  d.getValue());
 	}
+	
+
 
 }
