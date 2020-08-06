@@ -9,6 +9,7 @@ public class Dice {
 	
 	public Dice(int numSides) {
 		sides=numSides;
+		roll();
 	}
 	
 	public void roll() {
