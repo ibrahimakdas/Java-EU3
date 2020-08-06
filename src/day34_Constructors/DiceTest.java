@@ -7,7 +7,7 @@ public class DiceTest {
 		
 		final int SIX_SIDES=6;
 		Dice sixDice = new Dice(SIX_SIDES);
-		
+
 		rollDice(sixDice);
 		
 		
