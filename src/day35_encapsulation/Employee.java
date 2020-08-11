@@ -59,6 +59,12 @@ public class Employee {
 	public void setPosition(String position) {
 		this.position = position;
 	}
+
+	
+	public String toString() {
+		return "Employee [name=" + name + ", idNumber=" + idNumber + ", department=" + department + ", position="
+				+ position + "]";
+	}
 	
 	
 	
