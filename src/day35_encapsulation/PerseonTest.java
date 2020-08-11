@@ -8,6 +8,9 @@ public class PerseonTest {
 		
 		ozzy.setAge(18);
 		
+		//print age
+		System.out.println(ozzy.getAge());
+		
 	
 		//Encapsulation
 		
