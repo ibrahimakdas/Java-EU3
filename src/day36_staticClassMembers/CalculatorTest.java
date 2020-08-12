@@ -12,8 +12,19 @@ public class CalculatorTest {
 		int i = Integer.parseInt("33");
 		System.out.println(Character.isDigit('4'));
 		
+		//1
+		CalculatorTest.mA();
+		//2
+		CalculatorTest ct = new CalculatorTest();
+		ct.mA();
+		//3
+		mA();
 		
 
+	}
+	
+	public static void mA() {
+		System.out.println("Hello");
 	}
 
 }
