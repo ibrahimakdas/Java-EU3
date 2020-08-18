@@ -1,6 +1,6 @@
 package day37_inheritance;
 
-public class Employee extends Person {
+public class Employee extends Person{
 	
 	String jobTitle;
 	
