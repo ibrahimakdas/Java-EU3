@@ -10,10 +10,11 @@ public class School {
 		person.gender = 'M';
 		
 		Student student  = new Student();
-		student.name = "Tom";
+		student.name = "Tom";  //assign Tom to name. where is name?  what is object? student - belong to Student class
 		student.age = 25;
 		student.gender = 'M';
 		student.studentId = 12948;
+	
 		
 		
 		
