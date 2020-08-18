@@ -14,6 +14,8 @@ public class Company {
 		emp1.work();
 		
 		emp1.eat("Salad");
+		
+		
 
 	}
 
