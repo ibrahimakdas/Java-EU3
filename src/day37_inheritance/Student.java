@@ -1,6 +1,6 @@
 package day37_inheritance;
 
-public class Student extends Person {
+public class Student extends Person {  //student can have everything person class has 
 
 	int studentId;
 	String termClass;
