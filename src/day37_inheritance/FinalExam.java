@@ -6,6 +6,7 @@ public class FinalExam extends GradeActivity {
 	private double pointsEach;
 	private int numMissed;
 	
+	
 	public FinalExam(int numQuestions,int numMissed) {
 		
 		double numericScore;
