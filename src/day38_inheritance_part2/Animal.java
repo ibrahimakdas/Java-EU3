@@ -23,6 +23,10 @@ public class Animal {
 	public void eat() {
 		System.out.println("Animal.eat() is called");
 	}
+	
+	public void move(int speed) {
+		System.out.println("Animal.move() called. Animal is moving at " + speed);
+	}
 
 
 
