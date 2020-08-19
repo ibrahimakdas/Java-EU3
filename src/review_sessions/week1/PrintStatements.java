@@ -1,5 +1,7 @@
 package review_sessions.week1;
 
+import java.time.LocalDate;
+
 public class PrintStatements {
 
 	public static void main(String[] args) {
@@ -17,6 +19,8 @@ public class PrintStatements {
 		System.out.println("Car");
 		
 		System.out.println("he said \"hello\"");
+
+		
 
 	}
 
