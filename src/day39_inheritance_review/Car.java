@@ -23,14 +23,17 @@ public class Car extends Vehicle {
 	
 	public void changeVelocity(int speed,int direction) {
 		System.out.println("Car.changeVeloctiy():Veloctiy " + speed + " direction " + direction);
+		super.move(speed,direction);
 	}
-
+	
 	@Override
 	void move(int velocity, int direction) {
 		setCurrentVelocity(velocity+10);
 		setCurrentDriection(direction + 10);
 		System.out.println("Vehicle.move(): Moving at " + getCurrentVelocity() + " in direction " + getCurrentDriection() );
 	}
+
+
 	
 	
 	
