@@ -7,9 +7,11 @@ public class Vehicle {
 	private int currentVelocity;
 	private int currentDriection;
 	
+	/*
 	public Vehicle() {
 		this("BMW",3,60,50);
 	}
+	*/
 	
 	public Vehicle(String name,int size) {
 		this.name=name;
