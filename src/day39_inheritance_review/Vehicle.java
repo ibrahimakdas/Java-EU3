@@ -35,6 +35,10 @@ public class Vehicle {
 		this.currentVelocity=velocity;
 		System.out.println("Vehicle.moce():Moving at " + currentVelocity + " in direction " + currentDriection);
 	}
+	
+	public void stop() {
+		this.currentVelocity=0;
+	}
 
 	public String getName() {
 		return name;
