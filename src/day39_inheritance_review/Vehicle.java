@@ -29,6 +29,12 @@ public class Vehicle {
 		this.currentDriection += direction;
 		System.out.println("Vehicle.steer():Steering at " + currentDriection + " degrees.");
 	}
+	
+	void move(int velocity,int direction) {
+		this.currentDriection=direction;
+		this.currentVelocity=velocity;
+		System.out.println("Vehicle.moce():Moving at " + currentVelocity + " in direction " + currentDriection);
+	}
 
 	public String getName() {
 		return name;
