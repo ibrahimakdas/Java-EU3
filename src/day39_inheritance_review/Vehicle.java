@@ -7,7 +7,9 @@ public class Vehicle {
 	private int currentVelocity;
 	private int currentDriection;
 	
-	public Vehicle() {}
+	public Vehicle() {
+		this("BMW",3,60,50);
+	}
 	
 	public Vehicle(String name,int size) {
 		this.name=name;
@@ -21,6 +23,11 @@ public class Vehicle {
 		this.size = size;
 		this.currentVelocity = currentVelocity;
 		this.currentDriection = currentDriection;
+	}
+	
+	public void steer(int direction) {
+		this.currentDriection += direction;
+		System.out.println("Vehicle.steer():Steering at " + currentDriection + " degrees.");
 	}
 
 	public String getName() {
