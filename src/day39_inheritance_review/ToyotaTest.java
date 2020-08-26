@@ -10,9 +10,7 @@ public class ToyotaTest {
 		toyota.accelerate(30);
 		toyota.accelerate(20);
 		toyota.accelerate(-42);
-		
-		
-
 	}
 
 }
+
