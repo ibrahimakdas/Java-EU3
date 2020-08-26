@@ -6,6 +6,8 @@ public class KangarooTest {
 		
 		Kangaroo k = new Kangaroo();
 		k.getMarsupialDescription();
+		
+		k.getKangarooDescription();
 
 	}
 
