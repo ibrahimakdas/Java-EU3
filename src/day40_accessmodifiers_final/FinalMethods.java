@@ -4,6 +4,8 @@ public class FinalMethods {
 	
 	public final void method1() {
 		System.out.println("Method-1");
+		
+		String x = "Apple";
 	}
 	
 	public final static void staticMethod(String word) {
