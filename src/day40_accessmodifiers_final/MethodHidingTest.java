@@ -21,3 +21,31 @@ class Bear{
 	}
 	
 }
+
+class Panda extends Bear{
+	
+	public static void eat() {
+		System.out.println("Panda is eating");
+	}
+	
+	public void sneeze() {
+		System.out.println("Panda is sneezing");
+	}
+	
+	public void hibernate() {
+		System.out.println("Panda is hibernating");
+	}
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
