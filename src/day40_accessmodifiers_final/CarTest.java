@@ -10,6 +10,10 @@ public class CarTest {
 		//c.door = 4;  //private 
 		c.engine = 5.2;
 		
+		System.out.println(c.toString());
+		
+	
+		
 
 	}
 
