@@ -14,6 +14,8 @@ public class Parrot extends Bird {
 		
 	}
 	
+	String x = "apple";
+	
 
 	
 	
