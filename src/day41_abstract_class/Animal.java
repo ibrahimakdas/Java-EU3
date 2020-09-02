@@ -18,7 +18,7 @@ public abstract class Animal {
 	 */
 	
 	//Abstract Method
-	 abstract void eat(); //abstract method 
+	 abstract  void eat(); //abstract method 
 	//Abstract Method
 	abstract void breathe();
 	
