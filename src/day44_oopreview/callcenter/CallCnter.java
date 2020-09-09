@@ -20,6 +20,33 @@ public class CallCnter {
 		wa.getCount();
 		wa.setCount(4);
 		
+		System.out.println("---------------");
+		
+		VoiceCallable obj = new WhatsApp();
+		
+		( (WhatsApp) obj).launch();
+		
+		( (MessagingApp) obj).allOSCompatible = false;
+		
+		obj.call("Mr Tom");
+		
+		( (WhatsApp) obj).videoCall();
+		
+		((VideoCallable)obj).videoCall();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
