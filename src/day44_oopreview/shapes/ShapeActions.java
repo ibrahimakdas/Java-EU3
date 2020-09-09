@@ -13,6 +13,8 @@ public class ShapeActions {
 		
 		drawShape(buildShape("shape"));
 		
+		System.out.println("-------------");
+		
 		List<Shape> myList = new ArrayList<>();
 		myList.add(new Shape());
 		myList.add(new Square());
