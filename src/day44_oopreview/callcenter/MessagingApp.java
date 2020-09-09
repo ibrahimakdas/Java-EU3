@@ -8,9 +8,11 @@ public abstract class MessagingApp {
 	private static int count;
 	public static final String APP_TYPE = "Messenger";
 	
+	
 	public MessagingApp() {
 		System.out.println("MessagingApp no-args constructor...");
 	}
+	
 	
 	public MessagingApp(String name, int count) {
 		this.name = name;
