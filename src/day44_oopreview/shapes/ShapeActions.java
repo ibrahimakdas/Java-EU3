@@ -16,7 +16,7 @@ public class ShapeActions {
 		System.out.println("-------------");
 		
 		List<Shape> myList = new ArrayList<>();
-		myList.add(new Shape());
+		myList.add(new Shape()); 
 		myList.add(new Square());
 		myList.add(new Shape());
 		myList.add(new Square());
