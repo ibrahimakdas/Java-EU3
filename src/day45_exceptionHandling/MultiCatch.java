@@ -6,7 +6,13 @@ public class MultiCatch {
 		
 		try {
 			
-			System.out.println(4/0);
+			//System.out.println(4/0);
+			
+			//String str = null;
+			//System.out.println(str.toUpperCase());
+			
+			int[] n = {10,4};
+			System.out.println(n[2]);
 			
 		}catch(ArithmeticException e) {
 			
@@ -14,11 +20,14 @@ public class MultiCatch {
 			
 		}catch(NullPointerException e) {
 			
-			System.out.println("NullpointerException Happened");
+			System.out.println("Nullpointer Exception Happened");
 			
 		}catch(RuntimeException e) {
 			
 			e.printStackTrace();
+			
+		}catch(Exception e) {
+			
 		}
 		
 	}
