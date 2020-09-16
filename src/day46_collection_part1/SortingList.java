@@ -23,10 +23,20 @@ public class SortingList {
 		System.out.println(list.toString());
 		
 		List<Product> prodList = new ArrayList<Product>();
+		
+		Product p = new Product("table", 81.36);
+		
 		prodList.add(new Product("spoon", 13.99));
 		prodList.add(new Product("bag", 100.00));
 		prodList.add(new Product("shoes", 59.99));
 		prodList.add(new Product("computer", 2100.59));
+		prodList.add(p);
+		
+		System.out.println(prodList.toString());
+		
+		Collections.sort(prodList);
+		
+		
 		
 		
 		
