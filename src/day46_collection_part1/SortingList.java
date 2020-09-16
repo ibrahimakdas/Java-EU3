@@ -22,6 +22,13 @@ public class SortingList {
 		System.out.println("After sorting");
 		System.out.println(list.toString());
 		
+		List<Product> prodList = new ArrayList<Product>();
+		prodList.add(new Product("spoon", 13.99));
+		prodList.add(new Product("bag", 100.00));
+		prodList.add(new Product("shoes", 59.99));
+		prodList.add(new Product("computer", 2100.59));
+		
+		
 		
 		
 		
