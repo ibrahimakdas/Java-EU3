@@ -14,6 +14,18 @@ public class SortingList {
 		list.add("kotlin");
 		list.add("c++");
 		
+		System.out.println("Before sorting");
+		System.out.println(list.toString());
+		
+		Collections.sort(list);
+		
+		System.out.println("After sorting");
+		System.out.println(list.toString());
+		
+		
+		
+		
+		
 		
 		
 
