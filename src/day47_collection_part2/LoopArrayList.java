@@ -28,7 +28,19 @@ public class LoopArrayList {
 			System.out.print(nums.get(i) + "|");
 		}
 		
-		//
+		System.out.println();
+		
+		//looping using forEach method 
+		nums.forEach(n -> System.out.print(n + "|") );
+		
+		System.out.println();
+		
+		nums.removeIf(n -> n<500);
+		
+		nums.forEach(n -> System.out.print(n + "|") );
+		
+		
+		
 		
 		
 		
