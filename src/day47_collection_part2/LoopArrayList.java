@@ -16,6 +16,21 @@ public class LoopArrayList {
 		nums.add(5000);
 		nums.add(950);
 		
+		//looping using for each loop
+		for(Integer n : nums) {
+			System.out.print(n + "|");
+		}
+		
+		System.out.println();
+		
+		//looping using for iterator loop
+		for(int i=0;i<nums.size();i++) {
+			System.out.print(nums.get(i) + "|");
+		}
+		
+		//
+		
+		
 		
 
 	}
