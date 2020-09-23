@@ -24,7 +24,17 @@ public class ListOfMaps {
 		employees.add(emp2Data);
 		
 		System.out.println(employees.toString());
+		System.out.println(employees.get(0));
 		
+		System.out.println(employees.get(1).get("EmpName"));
+		
+		//print total salary
+		int totalSalary=0;
+		for(Map<String,String> employee : employees){
+			totalSalary += Integer.parseInt(employee.get("Salary"));
+		}
+		System.out.println("Total Salary:" + totalSalary);
+				
 		
 		
 		
