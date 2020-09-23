@@ -32,6 +32,28 @@ public class LoopMap {
 		for(String key : dataMap.keySet()) {
 			System.out.println(key + "|" + dataMap.get(key));
 		}
+		
+		//looping by using forEach method
+		dataMap.forEach((k,v) -> System.out.println(k + "|" +v));
+		
+		//DIFFERENT COMBINATIONS
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 
