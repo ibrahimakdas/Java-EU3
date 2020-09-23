@@ -15,6 +15,24 @@ public class MapExample {
 		items.put("Milk", 6.2);
 		items.put("Cherries", 4.99);
 		
+		System.out.println(items.size());
+		
+		System.out.println(items.toString());
+		
+		System.out.println(items.isEmpty());
+		
+		System.out.println(items.get("Apple"));
+		
+		System.out.println(items.get("Milk"));
+		
+		items.remove("Flowers");
+		
+		System.out.println(items.toString());
+		
+		
+		
+		
+		
 
 	}
 
