@@ -23,7 +23,15 @@ public class LoopMap {
 			System.out.print(key + "|");
 		}
 		
-				
+		System.out.println("++++VALUES++++");
+		for(String value : dataMap.values()) {
+			System.out.print(value + "|");
+		}
+		
+		System.out.println("++++KEY | VALUES++++");
+		for(String key : dataMap.keySet()) {
+			System.out.println(key + "|" + dataMap.get(key));
+		}
 
 	}
 
