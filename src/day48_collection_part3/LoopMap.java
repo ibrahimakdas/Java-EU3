@@ -2,6 +2,8 @@ package day48_collection_part3;
 
 import java.util.*;
 
+import day46_collection_part1.Product;
+
 public class LoopMap {
 
 	public static void main(String[] args) {
@@ -37,6 +39,26 @@ public class LoopMap {
 		dataMap.forEach((k,v) -> System.out.println(k + "|" +v));
 		
 		//DIFFERENT COMBINATIONS
+		Map<Integer,Product> studentMap = new HashMap<>();
+		
+		Map<String,String[]> data = new HashMap<>();
+		
+		Map<Integer,List<String>> data2 = new HashMap<>();
+		
+		Map<Integer,List<String[]>> data3 = new HashMap<>();
+		
+		Map<String,Map<Integer,Integer>> data4 = new HashMap<>();
+		
+		Map<String,Map<Integer,Product>> data5 = new HashMap<>();
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
